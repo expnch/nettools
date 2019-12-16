@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-CONTAINER="expnch/ops-net-tools"
+CONTAINER="expnch/nettools"
 
 function kube-run {
     local context

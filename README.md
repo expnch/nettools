@@ -5,3 +5,7 @@ Container has standard/handy networking utilities installed.  Script contains a 
 Only tested on macOS
 
 Dependencies: kubectl, jq
+
+# Build
+
+`docker build -t expnch/nettools .`
