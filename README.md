@@ -1,10 +1,12 @@
 # Network Tools Container
 
-Container has standard/handy networking utilities installed.  Script contains a function to launch and exec into a pod with that container, should be added to path as a standalone file or appended to `~/.bash_profile`.
+This is a container with standard/handy networking utilities installed.
 
-Only tested on macOS
+The launc script `kube-run.sh` contains a Bash function to launch and exec into a pod on Kubernetes running the container. It should be added to path as a standalone file or its contents appended to `~/.bash_profile`.
 
-Launch script dependencies: kubectl, jq
+Only tested on macOS.
+
+Launch script dependencies: `kubectl`, `jq`
 
 # Build
 
